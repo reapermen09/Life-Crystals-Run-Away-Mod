@@ -53,6 +53,8 @@ namespace LifeCrystalsRunAwayMod
             NPC.noGravity = false;
             NPC.noTileCollide = false;
             NPC.scale = 0.33f;
+            NPC.lavaImmune = true;
+            NPC.trapImmune = true;
 
             AnimationType = AnimationID.FakeChestOpening;
         }
