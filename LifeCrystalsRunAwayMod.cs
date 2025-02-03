@@ -62,6 +62,10 @@ namespace LifeCrystalsRunAwayMod
             npcLoot.Add(ItemDropRule.Common(ItemID.LifeCrystal, 1));
         }
         private int jumpTimer = 0;
+        public override void OnKill()
+        {
+            LifeCrystalTile.hasSpawned = false;
+        }
         public override void AI()
         {
             if (jumpTimer > 0)
