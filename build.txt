@@ -1,0 +1,3 @@
+displayName = Life Crystals Run Away Mod
+author = Reaperman
+version = 0.1
